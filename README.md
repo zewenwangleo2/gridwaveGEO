@@ -23,9 +23,5 @@ then open http://localhost:8080/
 
 ## Deploy
 
-Push this folder to a GitHub repo, then import it into Vercel, Netlify, or Cloudflare Pages —
-no build command or output directory needed, it's already static.
-
-Before going live, replace the placeholder domain `https://www.gridwavegeo.com/` in
-`index.html` (canonical + Open Graph/Twitter tags), `robots.txt`, and `sitemap.xml`
-with your real domain.
+Live at [gridwavegeo.com](https://gridwavegeo.com), deployed via Vercel from the `main` branch.
+Pushing to `main` redeploys automatically.
