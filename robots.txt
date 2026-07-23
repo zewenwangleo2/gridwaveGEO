@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://gridwavegeo.com/sitemap.xml
+Sitemap: https://www.gridwavegeo.com/sitemap.xml
