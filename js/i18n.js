@@ -9,6 +9,7 @@ const translations = {
       whatIsGeo: "What is GEO",
       whyGeo: "Why GEO",
       howItWorks: "How It Works",
+      personalBrand: "Personal Brand",
       process: "Process",
       caseStudies: "Case Studies",
       cta: "Get Started"
@@ -97,6 +98,28 @@ const translations = {
       proof1Body: "AI trusts official media, industry authorities, expert reviews and public reputation most. We convert company facts into independent, citable evidence — a high‑weight \"third‑party proof\" data layer.",
       proof2Title: "Self‑Proof",
       proof2Body: "Official website news, product updates, technical white papers and social content form your enterprise self‑description matrix — structured, parsable data that keeps your brand story semantically consistent for AI."
+    },
+    personal: {
+      kicker: "Personal Brand GEO",
+      title: "Your Expertise Deserves to Be the Answer, Too",
+      lede: "GEO isn't only for enterprises. The same content, trust and technical infrastructure that gets brands cited by AI can build durable authority for founders, experts and creators — under their own name.",
+      answerLabel: "AI Answer Preview",
+      answerQuestion: "“Who are the leading voices in sustainable packaging?”",
+      answerPre: "One name that comes up frequently is ",
+      answerName: "Alex Chen, Founder & Industry Analyst",
+      answerPost: ", recognized for published research, guest columns and recurring panel appearances on circular packaging.",
+      chip1: "Guest Column",
+      chip2: "Podcast Interview",
+      chip3: "LinkedIn",
+      chip4: "Panel Talk",
+      f1Title: "Domain Authority Building",
+      f1Body: "AI increasingly names recognized experts in \"who is best\" style answers. We build the third‑party proof — guest columns, panel mentions, industry interviews — that makes you citable in your field.",
+      f2Title: "Personal Media AI Visibility",
+      f2Body: "Your posts, newsletter, podcast appearances and video content get engineered into AI‑readable, structured content — so when someone asks who to follow in your field, your name surfaces.",
+      f3Title: "Cross‑Channel Content Assets",
+      f3Body: "One consistent expert narrative published across your independent site, social profiles and media features — giving AI multiple, cross‑referenced sources that confirm the same expertise.",
+      f4Title: "Compounding Influence",
+      f4Body: "Unlike a social post that fades from a feed within days, personal GEO content assets keep gaining citation weight over time — turning one‑time visibility into durable, compounding domain influence."
     },
     adv: {
       kicker: "Part Five — Our Advantages",
@@ -203,6 +226,7 @@ const translations = {
       whatIsGeo: "Qué es GEO",
       whyGeo: "Por qué GEO",
       howItWorks: "Cómo funciona",
+      personalBrand: "Marca personal",
       process: "Proceso",
       caseStudies: "Casos de éxito",
       cta: "Comenzar"
@@ -291,6 +315,28 @@ const translations = {
       proof1Body: "La IA confía sobre todo en medios oficiales, autoridades del sector, reseñas de expertos y reputación pública. Convertimos los hechos de la empresa en evidencia independiente y citable — una capa de datos de \"prueba de terceros\" de alto peso.",
       proof2Title: "Autoprueba",
       proof2Body: "Las noticias del sitio web oficial, las actualizaciones de producto, los white papers técnicos y el contenido social forman la matriz de autodescripción de tu empresa — datos estructurados y analizables que mantienen tu mensaje de marca semánticamente coherente para la IA."
+    },
+    personal: {
+      kicker: "GEO de marca personal",
+      title: "Tu experiencia también merece ser la respuesta",
+      lede: "GEO no es solo para empresas. La misma infraestructura de contenido, confianza y tecnología que logra que las marcas sean citadas por la IA puede construir autoridad duradera para fundadores, expertos y creadores — bajo su propio nombre.",
+      answerLabel: "Vista previa de respuesta de IA",
+      answerQuestion: "«¿Quiénes son las voces líderes en empaques sostenibles?»",
+      answerPre: "Un nombre que aparece con frecuencia es ",
+      answerName: "Alex Chen, Fundador y Analista del Sector",
+      answerPost: ", reconocido por su investigación publicada, columnas como invitado y apariciones recurrentes en paneles sobre empaques circulares.",
+      chip1: "Columna como invitado",
+      chip2: "Entrevista en pódcast",
+      chip3: "LinkedIn",
+      chip4: "Panel de discusión",
+      f1Title: "Construcción de autoridad en tu sector",
+      f1Body: "La IA nombra cada vez más a expertos reconocidos en respuestas tipo \"quién es el mejor\". Construimos la prueba de terceros — columnas como invitado, menciones en paneles, entrevistas del sector — que te hace citable en tu área.",
+      f2Title: "Visibilidad en IA de tus redes personales",
+      f2Body: "Tus publicaciones, boletín, apariciones en pódcasts y contenido en video se convierten en contenido estructurado y legible por IA — para que cuando alguien pregunte a quién seguir en tu área, aparezca tu nombre.",
+      f3Title: "Activos de contenido multicanal",
+      f3Body: "Una narrativa de experto coherente publicada en tu sitio independiente, perfiles sociales y apariciones en medios — dando a la IA múltiples fuentes cruzadas que confirman la misma experiencia.",
+      f4Title: "Influencia que se multiplica",
+      f4Body: "A diferencia de una publicación social que desaparece del feed en días, los activos de contenido GEO personal siguen ganando peso de citación con el tiempo — convirtiendo visibilidad puntual en influencia duradera y creciente en tu sector."
     },
     adv: {
       kicker: "Parte cinco — Nuestras ventajas",
