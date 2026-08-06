@@ -12,6 +12,7 @@ const translations = {
       personalBrand: "Personal Brand",
       process: "Process",
       caseStudies: "Case Studies",
+      contactLink: "Contact",
       cta: "Get Started"
     },
     hero: {
@@ -210,6 +211,22 @@ const translations = {
       tier2: "Tier 2 Media",
       tier3: "Tier 3 Media"
     },
+    contact: {
+      kicker: "Get In Touch",
+      title: "Let's Talk About Your AI Visibility",
+      lede: "Tell us about your brand and we'll get back to you shortly — every submission goes straight to our team.",
+      nameLabel: "Full Name",
+      companyLabel: "Company",
+      emailLabel: "Work Email",
+      messageLabel: "Message",
+      submitLabel: "Send Message",
+      statusSending: "Sending…",
+      statusSuccess: "Thanks — your message has been sent. We'll reply within one business day.",
+      statusError: "Something went wrong. Please try again or email us directly.",
+      statusNotConfigured: "Form is not yet activated — please email us directly for now.",
+      sideTitle: "Prefer email?",
+      sideBody: "Write to us directly and we'll reply within one business day."
+    },
     footer: {
       tagline: "Make your business AI visible.",
       copy: "© 2026 Gridwave GEO. All rights reserved."
@@ -229,6 +246,7 @@ const translations = {
       personalBrand: "Marca personal",
       process: "Proceso",
       caseStudies: "Casos de éxito",
+      contactLink: "Contacto",
       cta: "Comenzar"
     },
     hero: {
@@ -426,6 +444,22 @@ const translations = {
       tier1: "Medios de nivel 1",
       tier2: "Medios de nivel 2",
       tier3: "Medios de nivel 3"
+    },
+    contact: {
+      kicker: "Contáctanos",
+      title: "Hablemos de tu visibilidad en IA",
+      lede: "Cuéntanos sobre tu marca y te responderemos en breve — cada mensaje llega directamente a nuestro equipo.",
+      nameLabel: "Nombre completo",
+      companyLabel: "Empresa",
+      emailLabel: "Correo laboral",
+      messageLabel: "Mensaje",
+      submitLabel: "Enviar mensaje",
+      statusSending: "Enviando…",
+      statusSuccess: "Gracias — tu mensaje fue enviado. Te responderemos en un día hábil.",
+      statusError: "Algo salió mal. Inténtalo de nuevo o escríbenos directamente.",
+      statusNotConfigured: "El formulario aún no está activado — por ahora escríbenos directamente.",
+      sideTitle: "¿Prefieres el correo?",
+      sideBody: "Escríbenos directamente y te responderemos en un día hábil."
     },
     footer: {
       tagline: "Haz que tu empresa sea visible para la IA.",

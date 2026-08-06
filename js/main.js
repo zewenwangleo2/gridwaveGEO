@@ -114,4 +114,51 @@
       })();
     }
   }
+
+  // --- Contact form (submits to Web3Forms, delivers to contactus@gridwaveglobal.com) ---
+  var contactForm = document.getElementById("contact-form");
+  if (contactForm) {
+    var statusEl = document.getElementById("contact-status");
+    var submitBtn = document.getElementById("contact-submit");
+
+    contactForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+      var dict = getCurrentDict();
+
+      var accessKey = contactForm.querySelector('input[name="access_key"]').value;
+      if (!accessKey || accessKey === "YOUR_WEB3FORMS_ACCESS_KEY") {
+        statusEl.textContent = dict.contact.statusNotConfigured;
+        statusEl.className = "contact-status is-error";
+        return;
+      }
+
+      submitBtn.disabled = true;
+      statusEl.textContent = dict.contact.statusSending;
+      statusEl.className = "contact-status";
+
+      fetch("https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify(Object.fromEntries(new FormData(contactForm)))
+      })
+        .then(function (res) { return res.json(); })
+        .then(function (data) {
+          if (data.success) {
+            statusEl.textContent = dict.contact.statusSuccess;
+            statusEl.className = "contact-status is-success";
+            contactForm.reset();
+          } else {
+            statusEl.textContent = dict.contact.statusError;
+            statusEl.className = "contact-status is-error";
+          }
+        })
+        .catch(function () {
+          statusEl.textContent = dict.contact.statusError;
+          statusEl.className = "contact-status is-error";
+        })
+        .finally(function () {
+          submitBtn.disabled = false;
+        });
+    });
+  }
 })();
