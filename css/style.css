@@ -127,23 +127,14 @@ svg{display:block;}
 .hero{
   position:relative;
   padding:164px 0 88px;
-  background:linear-gradient(180deg, #0C1129 0%, var(--navy) 100%);
+  background:
+    linear-gradient(100deg, rgba(9,12,30,0.98) 0%, rgba(9,12,30,0.88) 32%, rgba(9,12,30,0.45) 62%, rgba(9,12,30,0.72) 100%),
+    linear-gradient(0deg, rgba(9,12,30,0.55) 0%, transparent 30%),
+    url("../assets/hero-earth.jpg") center 38% / cover no-repeat;
   color:#fff;
   overflow:hidden;
 }
 .hero-bg{position:absolute;inset:0;z-index:0;overflow:hidden;}
-.hero-globe-canvas{position:absolute;top:50%;right:-4%;transform:translateY(-50%);pointer-events:none;}
-.hero-bokeh{position:absolute;border-radius:50%;filter:blur(46px);pointer-events:none;}
-.hero-bokeh-1{width:220px;height:220px;left:2%;bottom:8%;background:radial-gradient(circle,rgba(140,175,255,0.30),transparent 70%);}
-.hero-bokeh-2{width:130px;height:130px;left:12%;bottom:28%;background:radial-gradient(circle,rgba(199,214,236,0.22),transparent 70%);}
-.hero-bokeh-3{width:320px;height:320px;right:8%;top:6%;background:radial-gradient(circle,rgba(92,124,174,0.24),transparent 70%);}
-.hero-hud{position:absolute;top:118px;right:6%;opacity:0.4;}
-.dot-grid{
-  position:absolute;inset:0;
-  background-image:radial-gradient(rgba(255,255,255,0.08) 1.2px, transparent 1.2px);
-  background-size:28px 28px;
-  mask-image:radial-gradient(ellipse 70% 55% at 30% 30%, black 30%, transparent 80%);
-}
 .hero-inner{position:relative;z-index:1;max-width:760px;}
 .eyebrow{
   display:inline-block;
@@ -537,8 +528,6 @@ svg{display:block;}
   .avatar-photo{max-width:280px;}
   .timeline{grid-template-columns:1fr;}
   .tier-row{grid-template-columns:1fr;}
-  .hero-globe-canvas{opacity:0.55;}
-  .hero-hud{display:none;}
 
   .site-header.nav-open .main-nav{
     display:flex;flex-direction:column;position:absolute;top:72px;left:0;right:0;
@@ -557,8 +546,11 @@ svg{display:block;}
   .btn-sm{display:none;}
   .hero-cta{flex-direction:column;align-items:stretch;}
   .hero-cta .btn{width:100%;}
-  .hero-globe-canvas{display:none;}
-  .hero-bokeh-3{display:none;}
+  .hero{
+    background:
+      linear-gradient(180deg, rgba(9,12,30,0.94) 0%, rgba(9,12,30,0.8) 55%, rgba(9,12,30,0.92) 100%),
+      url("../assets/hero-earth.jpg") center 30% / cover no-repeat;
+  }
   .globe-panel .globe-svg-small{width:380px;height:380px;}
 }
 

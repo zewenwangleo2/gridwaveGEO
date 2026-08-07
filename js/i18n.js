@@ -13,7 +13,7 @@ const translations = {
       process: "Process",
       caseStudies: "Case Studies",
       contactLink: "Contact",
-      cta: "Get Started"
+      cta: "Contact Us"
     },
     hero: {
       eyebrow: "All‑in‑One GEO Acceleration Platform",
@@ -247,7 +247,7 @@ const translations = {
       process: "Proceso",
       caseStudies: "Casos de éxito",
       contactLink: "Contacto",
-      cta: "Comenzar"
+      cta: "Contáctanos"
     },
     hero: {
       eyebrow: "Plataforma todo en uno de aceleración GEO",
